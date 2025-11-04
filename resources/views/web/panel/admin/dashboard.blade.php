@@ -11,7 +11,7 @@
     <!-- Plugins JS Ends-->
     <script>
         new WOW().init();
-        // jsonMessage4("Data loaded successfully");
+        jsonMessage4("Data loaded successfully");
         // jsonMessage4("Failed to fetch records", "error");
     </script>
 @endpush

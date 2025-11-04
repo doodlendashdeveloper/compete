@@ -17,7 +17,6 @@ class UserSeeder extends Seeder
     {
         ModelUsers::create([
             'name' => 'admin',
-            "phone_number" => 11111111,
             'email' => 'admin@yopmail.com',
             'password' => Hash::make('password'),
             'user_type' => 0,
